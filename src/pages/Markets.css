@@ -1,0 +1,164 @@
+.market-container {
+    padding: 2rem;
+    background-color: #f5f5f5;
+  }
+  
+  .market-container h2 {
+    color: green;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .market-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  }
+  
+  .market-table th,
+  .market-table td {
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .market-table th {
+    background-color: #e9ffe9;
+    color: green;
+  }
+  
+  .buy-btn {
+    padding: 0.5rem 1rem;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .buy-btn:hover {
+    background-color: darkgreen;
+  }
+  
+  .buy-btn:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+  }
+  
+
+
+/* Styling for the success and error messages */
+.message {
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.success {
+  background-color: #28a745;
+  color: white;
+}
+
+.error {
+  background-color: #dc3545;
+  color: white;
+}
+
+.market-container {
+  padding: 20px;
+}
+
+.market-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.market-table th, .market-table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.buy-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.buy-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+
+
+
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  width: 300px; /* Set a fixed width for the form */
+}
+
+/* Center the heading */
+h3 {
+  text-align: center;
+}
+
+/* Styling form elements */
+input, select, button {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+/* Optional: You can also control spacing more precisely like this */
+label input,
+label select {
+  margin-top: 5px;
+}
+
+
+.compact-btn {
+  padding: 4px 8px;
+  font-size: 0.9rem;
+  margin: 2px;
+  width: auto;
+}
+
+.logout-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 10px;
+}

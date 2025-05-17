@@ -1,0 +1,67 @@
+/* Style for the login container */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Takes full viewport height */
+    padding-top: 1px; /* Adjust this for spacing with the navbar */
+  }
+  
+  /* Style for the login form box */
+  .login-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    font-family: 'Arial', sans-serif; /* Ensures the login form has the same font */
+  }
+  
+  /* Style for the title (Login heading) */
+  .login-form h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Style for the input fields */
+  .login-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif; /* Ensures inputs use the correct font */
+    box-sizing: border-box;
+  }
+  
+  /* Style for the submit button */
+  .login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif; /* Ensures button has the same font */
+    cursor: pointer;
+  }
+  
+  .login-form button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add space to the footer */
+  footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+  }
+  
