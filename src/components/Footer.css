@@ -1,0 +1,20 @@
+/* Footer styles */
+footer {
+    position: relative;
+    background-color: #2e7d32;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: auto;  /* Ensure footer stays at the bottom */
+  }
+  
+  footer .social-icons {
+    margin-top: 10px;
+  }
+  
+  footer .social-icons i {
+    margin: 0 10px;
+    font-size: 1.5rem;
+  }
+  
